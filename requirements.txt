@@ -3,18 +3,16 @@ scipy
 matplotlib
 pandas
 
-scipy
 pillow
 pyyaml
-wheel
 freetype-py
 pypng 
 dataclasses
 bottleneck
 pynvx
-pandas
 fire
 jupyter
 jupyterlab
 fastprogress
 spacy==2.0.18
+nbconvert==5.4.1

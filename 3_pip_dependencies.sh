@@ -6,6 +6,8 @@ if [ ! -d $VENV_PATH ]; then
 fi
 source $VENV_PATH/bin/activate
 
+pip3 install wheel
+
 pip3 install -r requirements.txt
 
 #pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42 tensorflow-gpu
