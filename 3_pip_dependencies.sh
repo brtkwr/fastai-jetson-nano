@@ -1,10 +1,10 @@
 #!/bin/bash
-VENV_PATH="${VENV_PATH:-$HOME/Envs/3.6}"
-if [ ! -d $VENV_PATH ]; then
-	mkdir -p $VENV_PATH
-	python3.6 -m venv $VENV_PATH
+VIRTUAL_ENV="${VIRTUAL_ENV:-$HOME/Envs/3.6}"
+if [ ! -d $VIRTUAL_ENV ]; then
+	mkdir -p $VIRTUAL_ENV
+	python3.6 -m venv $VIRTUAL_ENV
 fi
-source $VENV_PATH/bin/activate
+source $VIRTUAL_ENV/bin/activate
 
 pip3 install wheel
 
