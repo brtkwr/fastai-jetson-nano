@@ -16,6 +16,11 @@ sudo apt-get -y install libblas3 liblapack3 liblapack-dev libblas-dev
 sudo apt-get -y install gfortran
 sudo apt-get -y install htop
 
+VENV_PATH="${VENV_PATH:-$HOME/Envs/3.6}"
+mkdir -p $VENV_PATH
+python3.6 -m venv $VENV_PATH
+source activate $VENV_PATH/bin/activate
+
 pip3 install scipy
 pip3 install pillow
 pip3 install pyyaml
