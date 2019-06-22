@@ -1,2 +1,2 @@
 # Restore jetson clocks setting
-sudo jetson_clocks --restore
+sudo jetson_clocks --restore store.conf

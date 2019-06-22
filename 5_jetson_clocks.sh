@@ -1,5 +1,5 @@
 # Store jetson clocks setting
-sudo jetson_clocks --store
+if [ ! -f store.conf ]; then sudo jetson_clocks --store store.conf; fi
 
 # We want to use mode 1 when the inlet is restricted to 5V. Use mode 0 for maximum.
 sudo nvpmodel -m 1
