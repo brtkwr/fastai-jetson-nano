@@ -15,4 +15,4 @@ jupyter
 jupyterlab
 fastprogress
 spacy==2.0.18
-nbconvert==5.4.1
+nbconvert==6.3.0
